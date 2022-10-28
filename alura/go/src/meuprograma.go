@@ -19,4 +19,13 @@ func main() {
 	fmt.Scan(&comando)
 	fmt.Println("O endereço da minha variavel comando é", &comando)
 	fmt.Println("O Comando escolhido foi", comando)
+
+	// Scan pede o endereço da variavel por isso passamos assim &comando
+
+	if comando == 1 {
+
+	} else if comando == 2 {
+
+	}
+
 }
